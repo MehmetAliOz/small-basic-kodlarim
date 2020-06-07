@@ -1,0 +1,10 @@
+TextWindow.ForegroundColor = "yellow"
+If (Clock.Hour < 12) Then
+  TextWindow.WriteLine ("günaydın")
+EndIf
+If (Clock.Hour > 18) Then
+  TextWindow.WriteLine ("iyi akşamlar")
+EndIf
+If (Clock.Hour < 18 ) Then
+  TextWindow.WriteLine ("tünaydın")
+  EndIf

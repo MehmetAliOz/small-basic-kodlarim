@@ -1,0 +1,8 @@
+i =1
+start:
+TextWindow.WriteLine(i)
+i = i+1
+If (i <1001) Then
+  Goto start
+EndIf
+ 

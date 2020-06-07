@@ -1,0 +1,10 @@
+TextWindow.ForegroundColor = "yellow"
+TextWindow.WriteLine ("adını =")
+name = TextWindow.Read()
+TextWindow.WriteLine ("okul no =")
+no = TextWindow.Read()
+TextWindow.WriteLine ("sınıf =")
+sube = TextWindow.Read()
+TextWindow.WriteLine ("müdürün adı =")
+m = TextWindow.Read()
+TextWindow.WriteLine("Okulumuzun " + sube + " sınıfı " + no + " nolu " + name + " öğrencisini tebrik ederim saygılarla okul müdürü " + m )
